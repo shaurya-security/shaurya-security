@@ -1,4 +1,4 @@
-# shaurya
+# Shaurya (Aman Kumar)
 Blue Team · Cloud Security · Detection-Focused Projects
 
 Self-taught. Building cloud detection and response capability from scratch, in public.
