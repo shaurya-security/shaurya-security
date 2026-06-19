@@ -1,7 +1,9 @@
 # Shaurya (Aman Kumar)
 Blue Team · Cloud Security · Detection-Focused Projects
 
-Self-taught. Building cloud detection and response capability from scratch, in public.
+Four detection engineering projects. All deployed. All documented.
+
+Blue team focus: cloud detection pipelines, active response automation, and SIEM rule authoring on AWS.
 
 ---
 
@@ -55,8 +57,9 @@ Six phases of learning, reconstructed and documented honestly. Notes, labs, summ
 - [x] Portfolio Entry 2 — AWS infrastructure CLI toolkit
 - [x] Portfolio Entry 3 — Cloud detection pipeline (AWS + Wazuh)
 - [x] Portfolio Entry 4 — Automated containment with Wazuh Active Response
-- [ ] Phase 8 — Certification
-- [ ] Phase 9 — Job applications
+
+Currently: Security+ preparation. Open to cloud security and SOC analyst roles.
+
 
 ---
 
@@ -65,6 +68,3 @@ Six phases of learning, reconstructed and documented honestly. Notes, labs, summ
 GitHub: https://github.com/shaurya-security
 LinkedIn: https://www.linkedin.com/in/aman-kumar-141495411/
 
----
-
-· Bihar, India
