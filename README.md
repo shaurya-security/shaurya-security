@@ -15,13 +15,13 @@ Structured path from Linux and networking foundations to cloud detection enginee
 
 ## Projects
 
-**[aws-wazuh-active-response](https://github.com/shaurya-security/aws-wazuh-active-response)**
+**[wazuh-active-response-containment](https://github.com/shaurya-security/wazuh-active-response-containment)**
 SSH brute-force detection and automated containment on AWS. Custom Wazuh correlation rule fires on threshold, triggers `firewall-drop` active response, inserts an iptables block for the attacker IP, and auto-removes it after 120 seconds. Full chain validated: attack → detection → alert → containment → recovery.
 
 *Demonstrates: detection engineering, active response automation, iptables, MITRE T1110, AWS networking, troubleshooting.*
 
 
-**[wazuh-cloud-detection-lab](https://github.com/shaurya-security/wazuh-cloud-detection-lab)**
+**[aws-cloud-detection-pipeline](https://github.com/shaurya-security/aws-cloud-detection-pipeline)**
 Cloud detection pipeline on AWS using CloudTrail, VPC Flow Logs, and Wazuh. Validated the full telemetry pipeline across host, network, and API log sources before implementing detections. Custom rules for AWS enumeration and SSH brute force. Entire environment provisioned from the CLI.
 
 *Demonstrates: telemetry pipeline design, IAM least-privilege, detection engineering, alert investigation.*
@@ -33,7 +33,7 @@ Bash-based AWS infrastructure toolkit with 8 modules and 110+ functions for VPC,
 *Demonstrates: AWS networking internals, Bash scripting, infrastructure automation, dependency management.*
 
 
-**[wazuh-ssh-bruteforce-detection](https://github.com/shaurya-security/wazuh-ssh-bruteforce-detection)**
+**[wazuh-custom-rule-detection](https://github.com/shaurya-security/wazuh-custom-rule-detection)**
 Local KVM lab. Custom level-12 Wazuh rule mapped to MITRE ATT&CK T1110. Wrote the rule, triggered the attack, validated the alert, wrote the investigation report. Complete chain: activity → log → rule → alert → investigation.
 
 *Demonstrates: custom detection rule authoring, MITRE mapping, SOC triage workflow.*
