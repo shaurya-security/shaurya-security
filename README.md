@@ -57,9 +57,8 @@ Six phases of learning, reconstructed and documented honestly. Notes, labs, summ
 - [x] Portfolio Entry 2 — AWS infrastructure CLI toolkit
 - [x] Portfolio Entry 3 — Cloud detection pipeline (AWS + Wazuh)
 - [x] Portfolio Entry 4 — Automated containment with Wazuh Active Response
-
-Currently: Security+ preparation. Open to cloud security and SOC analyst roles.
-
+- [ ] Phase 8 — Certification (AWS CCP - Ongoing)
+- [ ] Phase 9 — Job applications
 
 ---
 
