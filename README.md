@@ -27,8 +27,8 @@ Cloud detection pipeline on AWS using CloudTrail, VPC Flow Logs, and Wazuh. Vali
 Bash-based AWS infrastructure toolkit with 8 modules and 110+ functions for VPC, networking, EC2, NAT, and security group management. Built entirely on AWS CLI without Terraform or CloudFormation.
 *Demonstrates: AWS networking internals, Bash scripting, infrastructure automation, dependency management.*
 
-**[terraform-aws-vpc-ssm](https://github.com/shaurya-security/terraform-aws-bastion-nat/releases/tag/v2.0.0)**
-Declarative rebuild of the same VPC/EC2 architecture from `aws-infra-cli`, now on v2: managed NAT Gateway (replacing a bastion-as-NAT instance), SSM-only instance access with no SSH exposure, S3 remote state with native locking, and a GitHub Actions pipeline running `terraform fmt`, `terraform validate`, and Checkov (38 checks passing). v1 (the original bastion-as-NAT build) lives at [terraform-aws-bastion-nat](https://github.com/shaurya-security/terraform-aws-bastion-nat/releases/tag/v1.0.0).
+**[terraform-aws-vpc-ssm](https://github.com/shaurya-security/terraform-aws-bastion-nat/tree/v2.0.0)**
+Declarative rebuild of the same VPC/EC2 architecture from `aws-infra-cli`, now on v2: managed NAT Gateway (replacing a bastion-as-NAT instance), SSM-only instance access with no SSH exposure, S3 remote state with native locking, and a GitHub Actions pipeline running `terraform fmt`, `terraform validate`, and Checkov (38 checks passing). v1 (the original bastion-as-NAT build) lives at [terraform-aws-bastion-nat](https://github.com/shaurya-security/terraform-aws-bastion-nat/tree/v1.0.0).
 *Demonstrates: Infrastructure-as-Code, Terraform, AWS NAT/SSM/IAM, CI/CD, policy-as-code with Checkov.*
 
 **[wazuh-custom-rule-detection](https://github.com/shaurya-security/wazuh-custom-rule-detection)**
