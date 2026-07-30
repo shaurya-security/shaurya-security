@@ -5,6 +5,7 @@ Cloud Security | AWS | Terraform | Detection Engineering
 Most of my open-source work and repositories use the name "Shaurya", while my legal name is Aman Kumar.
 
 I'm building hands-on cloud security projects focused on AWS infrastructure, detection engineering, and security automation. My goal is to transition into a Cloud Security Engineer role by building practical, end-to-end labs that reflect real-world workflows.
+
 ---
 
 ## Featured Projects
