@@ -30,6 +30,16 @@ Declarative AWS infrastructure built with Terraform featuring a managed NAT Gate
 
 ---
 
+### 🔹 AWS Infra CLI
+
+Bash-based AWS infrastructure toolkit that provisions VPC networking, EC2, routing, and security groups entirely through the AWS CLI.
+
+**Tech:** Bash · AWS CLI · VPC · EC2 · Networking
+
+[![View Project](https://img.shields.io/badge/View-Project-181717?style=for-the-badge&logo=github)](https://github.com/shaurya-security/aws-infra-cli)
+
+---
+
 ### 🔹 AWS Cloud Detection Pipeline
 
 Cloud detection pipeline using CloudTrail, VPC Flow Logs, and Wazuh with custom AWS detection rules and centralized log analysis.
@@ -47,16 +57,6 @@ Automated SSH brute-force detection and containment on AWS using Wazuh Active Re
 **Tech:** Wazuh · Active Response · iptables · MITRE ATT&CK · Linux
 
 [![View Project](https://img.shields.io/badge/View-Project-181717?style=for-the-badge&logo=github)](https://github.com/shaurya-security/wazuh-active-response-containment)
-
----
-
-### 🔹 AWS Infra CLI
-
-Bash-based AWS infrastructure toolkit that provisions VPC networking, EC2, routing, and security groups entirely through the AWS CLI.
-
-**Tech:** Bash · AWS CLI · VPC · EC2 · Networking
-
-[![View Project](https://img.shields.io/badge/View-Project-181717?style=for-the-badge&logo=github)](https://github.com/shaurya-security/aws-infra-cli)
 
 ---
 
