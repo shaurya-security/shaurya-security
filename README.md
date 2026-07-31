@@ -12,9 +12,11 @@
 
 > **Note:** Most of my open-source work is published under the name **Shaurya**.
 
-- I build production-style AWS security labs that simulate real-world cloud environments using AWS, Terraform, and security automation.
-- My projects focus on Infrastructure as Code, cloud networking, detection engineering, and SIEM integration.
-- My goal is to build practical projects that mirror real cloud environments while preparing for a Cloud Security Engineer role.
+I build production-style AWS security labs that simulate real-world cloud environments using AWS, Terraform, and security automation.
+
+My projects focus on Infrastructure as Code, cloud networking, detection engineering, and SIEM integration.
+
+My goal is to build practical projects that mirror real cloud environments while preparing for a Cloud Security Engineer role.
 
 ---
 
