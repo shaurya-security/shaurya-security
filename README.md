@@ -55,15 +55,15 @@ flowchart LR
 
 | # | Repo | What it is |
 |---|---|---|
-| 1 | [cloud-security-learning-portfolio](https://github.com/shaurya-security/cloud-security-learning-portfolio) | Learning cloud security from scratch — six phases, documented honestly |
-| 2 | [wazuh-custom-rule-detection](https://github.com/shaurya-security/wazuh-custom-rule-detection) | SSH brute-force detection lab, MITRE ATT&CK mapping |
-| 3 | [aws-infra-cli](https://github.com/shaurya-security/aws-infra-cli) | 110+ function Bash/AWS CLI toolkit — VPCs, EC2, routing, no Terraform |
-| 4 | [aws-cloud-detection-pipeline](https://github.com/shaurya-security/aws-cloud-detection-pipeline) | CloudTrail + VPC Flow Logs into Wazuh, simulated on EC2 — *extends #2, infra via #3* |
-| 5 | [wazuh-active-response-containment](https://github.com/shaurya-security/wazuh-active-response-containment) | Full detection → automated containment → recovery chain, simulated on EC2 — *extends #2, infra via #3* |
-| 6 | [aws-secure-vpc-with-terraform](https://github.com/shaurya-security/aws-secure-vpc-with-terraform) | Terraform VPC, SSM-only access, CI security checks |
-| 7 | [flask-ecs-devops-pipeline](https://github.com/shaurya-security/flask-ecs-devops-pipeline) | Flask on ECS Fargate, OIDC, Checkov — *extends #6* |
-| 8 | [secure-eks-platform](https://github.com/shaurya-security/secure-eks-platform) | EKS + RDS + ALB Ingress — *extends #6* |
-| 9 | [wazuh-windows-soc-simulation](https://github.com/shaurya-security/wazuh-windows-soc-simulation) | 3 Windows SOC simulations, attack to remediation, Terraform-provisioned — *extends #5* |
+| 1 | [Sec Cloud Foundations](https://github.com/shaurya-security/sec-cloud-foundations) | Learning cloud security from scratch — six phases, documented honestly |
+| 2 | [Sec Wazuh SSH Detection](https://github.com/shaurya-security/sec-wazuh-ssh-detection) | SSH brute-force detection lab, MITRE ATT&CK mapping |
+| 3 | [Tools AWS Bash CLI](https://github.com/shaurya-security/tools-aws-bash-cli) | 110+ function Bash/AWS CLI toolkit — VPCs, EC2, routing, no Terraform |
+| 4 | [Sec AWS Wazuh Pipeline](https://github.com/shaurya-security/sec-aws-wazuh-pipeline) | CloudTrail + VPC Flow Logs into Wazuh, simulated on EC2 — *extends #2, infra via #3* |
+| 5 | [Sec Wazuh Active Response](https://github.com/shaurya-security/sec-wazuh-active-response) | Full detection → automated containment → recovery chain, simulated on EC2 — *extends #2, infra via #3* |
+| 6 | [IaC AWS Secure VPC](https://github.com/shaurya-security/iac-aws-secure-vpc) | Terraform VPC, SSM-only access, CI security checks |
+| 7 | [Devops AWS ECS Flask](https://github.com/shaurya-security/devops-aws-ecs-flask) | Flask on ECS Fargate, OIDC, Checkov — *extends #6* |
+| 8 | [IaC AWS Secure EKS](https://github.com/shaurya-security/iac-aws-secure-eks) | EKS + RDS + ALB Ingress — *extends #6* |
+| 9 | [Sec Wazuh Windows Detection](https://github.com/shaurya-security/sec-wazuh-windows-detection) | 3 Windows detection simulations, attack to remediation, Terraform-provisioned — *extends #5* |
 
 ---
 
