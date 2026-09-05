@@ -18,34 +18,9 @@ I build hands-on cloud/security labs — real infra, real telemetry, real bugs, 
 
 ## 🧭 Project Progression
 
-```mermaid
-flowchart LR
-    P1["1 · cloud-security-learning-portfolio"]
-
-    P1 --> P2["2 · wazuh-custom-rule-detection"]
-    P1 --> P3["3 · aws-infra-cli"]
-    P1 --> P6["6 · aws-secure-vpc-with-terraform"]
-
-    P2 --> P4["4 · aws-cloud-detection-pipeline"]
-    P2 --> P5["5 · wazuh-active-response-containment"]
-    P5 --> P9["9 · wazuh-windows-soc-simulation"]
-
-    P3 -.->|"infra via aws-infra-cli"| P4
-    P3 -.->|"infra via aws-infra-cli"| P5
-
-    P6 --> P7["7 · flask-ecs-devops-pipeline"]
-    P6 --> P8["8 · secure-eks-platform"]
-
-    classDef foundation fill:#1f6feb,stroke:#0d1117,color:#fff
-    classDef detection fill:#da3633,stroke:#0d1117,color:#fff
-    classDef infra fill:#238636,stroke:#0d1117,color:#fff
-    classDef automation fill:#8957e5,stroke:#0d1117,color:#fff
-
-    class P1 foundation
-    class P2,P4,P5,P9 detection
-    class P6,P7,P8 infra
-    class P3 automation
-```
+<p align="center">
+  <img src="project_progression.png" alt="Project Progression" width="100%">
+</p>
 
 🔵 Foundations · 🔴 Detection engineering (Wazuh, MITRE ATT&CK) · 🟢 Infrastructure as Code · 🟣 Automation tooling
 
