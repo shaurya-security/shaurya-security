@@ -2,119 +2,77 @@
 
 # 👋 Hi, I'm Aman Kumar (Shaurya)
 
-### Cloud • Linux • Infrastructure • Automation
+### Cloud • Linux • Detection Engineering • Automation
 
 <p>
   <img src="https://skillicons.dev/icons?i=aws,linux,bash,terraform,git,vscode" />
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Cloud-AWS-232F3E?style=flat&logo=amazonaws&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-System%20Administration-000000?style=flat&logo=linux">
-  <img src="https://img.shields.io/badge/Infrastructure-Terraform-7B42BC?style=flat&logo=terraform&logoColor=white">
-  <img src="https://img.shields.io/badge/Automation-Bash-4EAA25?style=flat&logo=gnubash&logoColor=white">
-  <img src="https://img.shields.io/badge/Monitoring-Wazuh%20%7C%20CloudWatch-1F6FEB?style=flat">
-  <img src="https://img.shields.io/badge/Networking-TCP%2FIP%20%7C%20DNS%20%7C%20VPN-2496ED?style=flat">
-</p>
+> Most of my open-source work is published under the name **Shaurya**.
+
+I build hands-on cloud/security labs — real infra, real telemetry, real bugs, documented honestly.
 
 </div>
 
 ---
 
-> **Note:** Most of my open-source work is published under the name **Shaurya**.
+## 🧭 Project Progression
 
-I build hands-on projects around **cloud infrastructure, Linux, networking, monitoring, security, and automation**.
+```mermaid
+flowchart LR
+    P1["1 · cloud-security-learning-portfolio"]
 
-My approach is practical: provision infrastructure, configure systems, generate real traffic and events, monitor what happens, investigate failures, and automate repetitive tasks.
+    P1 --> P2["2 · wazuh-custom-rule-detection"]
+    P1 --> P3["3 · aws-infra-cli"]
+    P1 --> P6["6 · aws-secure-vpc-with-terraform"]
 
-### What I work with
+    P2 --> P4["4 · aws-cloud-detection-pipeline"]
+    P2 --> P5["5 · wazuh-active-response-containment"]
+    P5 --> P9["9 · wazuh-windows-soc-simulation"]
 
-* ☁️ AWS cloud infrastructure and networking
-* 🐧 Linux administration and command-line workflows
-* 🌐 Networking fundamentals — TCP/IP, DNS, routing, VPNs, firewalls
-* 🏗️ Infrastructure as Code with Terraform
-* ⚙️ Bash scripting and AWS CLI automation
-* 📊 Monitoring, logging, and event analysis
-* 🔐 Security monitoring and access control
-* 🔄 Troubleshooting and automation
+    P3 -.->|"infra via aws-infra-cli"| P4
+    P3 -.->|"infra via aws-infra-cli"| P5
 
----
+    P6 --> P7["7 · flask-ecs-devops-pipeline"]
+    P6 --> P8["8 · secure-eks-platform"]
 
-## Featured Projects
+    classDef foundation fill:#1f6feb,stroke:#0d1117,color:#fff
+    classDef detection fill:#da3633,stroke:#0d1117,color:#fff
+    classDef infra fill:#238636,stroke:#0d1117,color:#fff
+    classDef automation fill:#8957e5,stroke:#0d1117,color:#fff
 
-### 🔹 AWS Cloud Detection Pipeline
+    class P1 foundation
+    class P2,P4,P5,P9 detection
+    class P6,P7,P8 infra
+    class P3 automation
+```
 
-A hands-on cloud monitoring and detection environment that centralizes **CloudTrail and VPC Flow Logs** into Wazuh for log analysis, custom detection rules, and security event monitoring.
-
-**Tech:** AWS · CloudTrail · VPC Flow Logs · Wazuh · Detection Engineering
-
-[![View Project](https://img.shields.io/badge/View-Project-181717?style=for-the-badge\&logo=github)](https://github.com/shaurya-security/aws-cloud-detection-pipeline)
-
----
-
-### 🔹 Wazuh Active-Response Containment
-
-An automated Linux security monitoring environment where Wazuh detects SSH brute-force activity and triggers firewall-based containment.
-
-**Tech:** Wazuh · Active Response · iptables · MITRE ATT&CK · Linux
-
-[![View Project](https://img.shields.io/badge/View-Project-181717?style=for-the-badge\&logo=github)](https://github.com/shaurya-security/wazuh-active-response-containment)
+🔵 Foundations · 🔴 Detection engineering (Wazuh, MITRE ATT&CK) · 🟢 Infrastructure as Code · 🟣 Automation tooling
 
 ---
 
-### 🔹 AWS Secure VPC with Terraform
+## 📂 Projects
 
-A repeatable AWS network environment defined entirely through Terraform, including VPC networking, routing, NAT Gateway, IAM, and Systems Manager integration.
-
-**Tech:** Terraform · AWS · IAM · SSM · VPC · NAT Gateway
-
-[![View Project](https://img.shields.io/badge/View-Project-181717?style=for-the-badge\&logo=github)](https://github.com/shaurya-security/terraform-aws-secure-vpc)
-
----
-
-### 🔹 AWS Infra CLI
-
-A Bash-based toolkit for provisioning and inspecting AWS infrastructure through the AWS CLI, covering resources such as VPCs, EC2 instances, routing, and security groups.
-
-**Tech:** Bash · AWS CLI · VPC · EC2 · Networking
-
-[![View Project](https://img.shields.io/badge/View-Project-181717?style=for-the-badge\&logo=github)](https://github.com/shaurya-security/aws-infra-cli)
+| # | Repo | What it is |
+|---|---|---|
+| 1 | [cloud-security-learning-portfolio](https://github.com/shaurya-security/cloud-security-learning-portfolio) | Learning cloud security from scratch — six phases, documented honestly |
+| 2 | [wazuh-custom-rule-detection](https://github.com/shaurya-security/wazuh-custom-rule-detection) | SSH brute-force detection lab, MITRE ATT&CK mapping |
+| 3 | [aws-infra-cli](https://github.com/shaurya-security/aws-infra-cli) | 110+ function Bash/AWS CLI toolkit — VPCs, EC2, routing, no Terraform |
+| 4 | [aws-cloud-detection-pipeline](https://github.com/shaurya-security/aws-cloud-detection-pipeline) | CloudTrail + VPC Flow Logs into Wazuh, simulated on EC2 — *extends #2, infra via #3* |
+| 5 | [wazuh-active-response-containment](https://github.com/shaurya-security/wazuh-active-response-containment) | Full detection → automated containment → recovery chain, simulated on EC2 — *extends #2, infra via #3* |
+| 6 | [aws-secure-vpc-with-terraform](https://github.com/shaurya-security/aws-secure-vpc-with-terraform) | Terraform VPC, SSM-only access, CI security checks |
+| 7 | [flask-ecs-devops-pipeline](https://github.com/shaurya-security/flask-ecs-devops-pipeline) | Flask on ECS Fargate, OIDC, Checkov — *extends #6* |
+| 8 | [secure-eks-platform](https://github.com/shaurya-security/secure-eks-platform) | EKS + RDS + ALB Ingress — *extends #6* |
+| 9 | [wazuh-windows-soc-simulation](https://github.com/shaurya-security/wazuh-windows-soc-simulation) | 3 Windows SOC simulations, attack to remediation, Terraform-provisioned — *extends #5* |
 
 ---
 
-## 💻 Technical Skills
+## 💻 Stack
 
-| Area                    | Skills / Tools                                                         |
-| ----------------------- | ---------------------------------------------------------------------- |
-| ☁️ Cloud                | AWS, EC2, VPC, IAM, SSM, CloudWatch, CloudTrail                        |
-| 🌐 Networking           | TCP/IP, DNS, routing, VPN, firewalls, security groups, NAT             |
-| 🏗️ Infrastructure      | Terraform, Infrastructure as Code                                      |
-| 🐧 Systems              | Linux, system administration, CLI                                      |
-| 🔐 Security             | Wazuh, IAM least privilege, security monitoring, detection engineering |
-| ⚙️ Automation           | Bash, AWS CLI                                                          |
-| 📊 Monitoring & Logging | CloudWatch, CloudTrail, VPC Flow Logs, Wazuh                           |
-| 🛠️ Tools               | Git, VS Code                                                           |
-
----
-
-## 📌 Currently Exploring
-
-* Advanced AWS infrastructure
-* Linux systems and administration
-* Networking and troubleshooting
-* Infrastructure automation
-* Cloud monitoring and logging
-* Security monitoring and detection
-* Infrastructure as Code
+`AWS` `Terraform` `Linux` `Bash` `Wazuh` `MITRE ATT&CK` `Docker` `ECS` `EKS` `GitHub Actions`
 
 ---
 
 ## Connect
 
-* 💼 LinkedIn: https://www.linkedin.com/in/aman-kumar-141495411/
-
----
-
-<p align="center">
-  <i>Building, breaking, troubleshooting, and automating real infrastructure.</i>
-</p>
+💼 [LinkedIn](https://www.linkedin.com/in/aman-kumar-141495411/)
